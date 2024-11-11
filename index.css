@@ -1,5 +1,5 @@
 #header {
-  background-image: url(/material/images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg);
+  background-image: url(/material/images/image2.jpg);
   width: 100%;
   height: 51rem;
   background-repeat: no-repeat;
@@ -62,12 +62,23 @@ ul {
 }
 
 #about-section {
-  background-color: #3E2C2C;
+  background-color: #402907f5;
   display: flex;
   color: white;
+  padding: 5%;
+}
+
+#about-image > img {
+  border-radius: 15px;
+  height: 100%;
 }
 
 
-#about-text {
-  
+
+#about-text > button {
+  border-radius: 15px;
+  color: white;
+  padding: 5px;
+  background: none;
+  border-color: white;
 }
