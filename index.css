@@ -91,3 +91,21 @@ ul {
   color: white;
   padding: 5%;
 }
+
+.image-identity {
+  display: flex;
+  align-items: center;
+}
+
+.image-identity > h3 {
+  
+  width: 15%;
+}
+
+.image-identity > button {
+  background-color: orangered;
+  width: 50px;
+border-radius: 10px;
+color: white;
+border: none;
+}
