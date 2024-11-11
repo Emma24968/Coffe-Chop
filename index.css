@@ -73,6 +73,9 @@ ul {
   height: 100%;
 }
 
+.main-text {
+  font-style: italic;
+}
 
 
 #about-text > button {
