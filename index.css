@@ -105,6 +105,10 @@ ul {
   position: relative;
 }
 
+.images > img {
+  border-radius: 20px;
+}
+
 .image-description {
   position: absolute;
   top: 68%;
@@ -115,13 +119,19 @@ ul {
   display: flex;
 }
 
+#text-container {
+margin: auto;
+width: 10%;
+}
+
 .overlay {
   position: absolute;
   top: 103px;
   left: 0;
-  width: 60%;
-  height: 61%;
+  width: 70%;
+  height: 67%;
   background: linear-gradient(to top, rgba(236, 73, 73, 0.61), rgba(0, 0, 0, 0) 50%);  opacity: 1;
+  border-radius: 20px;
 }
 
 .image-identity > button {
