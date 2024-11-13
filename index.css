@@ -156,3 +156,11 @@ width: 10%;
 .pricing {
   color: yellow;
 }
+
+#menu-container > div {
+  background-color: rgba(0, 0, 0, 0.623);  color: white;
+}
+
+#breakfast-menu {
+  margin-left: 50%;
+}
