@@ -164,3 +164,7 @@ width: 10%;
 #breakfast-menu {
   margin-left: 50%;
 }
+
+#menu-container {
+  background: url(/material/images/image2.jpg);
+}
