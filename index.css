@@ -144,5 +144,15 @@ width: 10%;
 }
 
 .menu-list {
-  
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-divider {
+  /* border-top: 1opx solid black; */
+  border: 1px solid rgb(238, 229, 229);
+}
+
+.pricing {
+  color: yellow;
 }
