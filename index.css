@@ -120,8 +120,8 @@ ul {
 }
 
 #text-container {
-margin: auto;
-width: 10%;
+  margin: auto;
+  width: 10%;
 }
 
 .overlay {
@@ -130,7 +130,12 @@ width: 10%;
   left: 0;
   width: 70%;
   height: 67%;
-  background: linear-gradient(to top, rgba(236, 73, 73, 0.61), rgba(0, 0, 0, 0) 50%);  opacity: 1;
+  background: linear-gradient(
+    to top,
+    rgba(236, 73, 73, 0.61),
+    rgba(0, 0, 0, 0) 50%
+  );
+  opacity: 1;
   border-radius: 20px;
 }
 
@@ -157,14 +162,28 @@ width: 10%;
   color: yellow;
 }
 
-#menu-container > div {
-  background-color: rgba(0, 0, 0, 0.623);  color: white;
+.pricing > span {
+  text-decoration-line: line-through ;
+  color: white;
 }
 
-#breakfast-menu {
-  margin-left: 50%;
+.menu-container > div {
+  color: white;
+  width: 30%;
+  padding: 10px 30px;
+  background-color: rgba(0, 0, 0, 0.623);
+
+  border-radius: 20px;
+  margin: 5%;
 }
 
-#menu-container {
+#breakfast-menu,
+#coffee-menu {
+  margin-left: 40%;
+}
+
+.menu-container {
   background: url(/material/images/image2.jpg);
+  display: flex;
+  justify-content: space-around;
 }
