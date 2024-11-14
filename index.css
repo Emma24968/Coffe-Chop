@@ -187,3 +187,17 @@ ul {
   display: flex;
   justify-content: space-around;
 }
+
+#customers-review {
+  background: url(/material/images/slides/sincere-laugh-showing-picture-smartphone-casual-meeting-with-best-friends-restaurant-terrace.jpg);
+  display: flex;
+  width: 30%;
+  height: 25rem;
+}
+
+#customer-details {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
