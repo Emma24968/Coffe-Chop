@@ -189,15 +189,43 @@ ul {
 }
 
 #customers-review {
-  background: url(/material/images/slides/sincere-laugh-showing-picture-smartphone-casual-meeting-with-best-friends-restaurant-terrace.jpg);
-  display: flex;
-  width: 30%;
-  height: 25rem;
+  width: 100%;
 }
 
-#customer-details {
-  display: flex;
-  align-items: center;
+#testimonial-container {
+  background: #3a1f0e;
   color: white;
+}
+
+#customer-details > div {
+  color: white;
+  display: flex;
+  padding: 30px 0 30px 20px;
+  align-items: center;
+}
+
+#names{
+margin-left: 20px;
+  line-height: 0;
+}
+
+#review-container > div {
+  border-radius: 15px;
+}
+
+#review-image {
+  width: 40%;
+  background: url(/material/images/image3.jpg);
+}
+.discription-container {
+  width: 37%;
+  background-color: #d9a066;
+  margin-top: -16px;
+  padding: 20px;
+}
+
+.rating {
+  display: flex;
   justify-content: space-between;
 }
+
