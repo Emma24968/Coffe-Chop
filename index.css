@@ -4,6 +4,9 @@
   height: 51rem;
   background-repeat: no-repeat;
   color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
 }
 
 #nav-container {
@@ -88,6 +91,9 @@ ul {
   background-color: #d9a066;
   color: white;
   padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
 }
 
 .image-identity {
@@ -186,6 +192,9 @@ ul {
   background: url(/material/images/image2.jpg);
   display: flex;
   justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
 }
 
 #customers-review {
@@ -198,6 +207,9 @@ ul {
 
 #testimonial-container {
   background: #3a1f0e;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
 }
 
 #customer-details > div {
@@ -245,9 +257,12 @@ ul {
 #footer {
   background-image: url(/material/images/image1.jpg);
   width: 100%;
-  height: 51rem;
+  height: 41rem;
   background-repeat: no-repeat;
   color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
 
 }
 
@@ -264,6 +279,11 @@ input, textarea {
 }
 
 #contact-section {
+  margin-top: 15%;
   display: flex;
 justify-content: space-between;
+}
+
+#copyright > img {
+  width: px;
 }
