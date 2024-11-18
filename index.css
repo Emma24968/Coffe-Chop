@@ -241,3 +241,29 @@ ul {
  display: flex;
   flex: 1;
 }
+
+#footer {
+  background-image: url(/material/images/image1.jpg);
+  width: 100%;
+  height: 51rem;
+  background-repeat: no-repeat;
+  color: white;
+
+}
+
+form {
+  width: 30%;
+  color: white;
+  line-height: 40px;
+}
+
+
+input, textarea {
+  background: none;
+  color: white;
+}
+
+#contact-section {
+  display: flex;
+justify-content: space-between;
+}
