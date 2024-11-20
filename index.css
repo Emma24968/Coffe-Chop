@@ -335,10 +335,14 @@ input, textarea, textarea::placeholder, input::placeholder {
   background-color: #5e2706;
 }
 
-#contact-section {
+#contact-section > div{
   margin-top: 15%;
   display: flex;
 justify-content: space-between;
+background-color: rgba(0, 0, 0, 0.623);
+    height: 10%;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #copyright > img {
