@@ -70,7 +70,8 @@ ul {
 
 
 .hero-text > h3 {
-  color: rgba(218, 218, 70, 0.767);
+  color: rgb(211, 211, 30);
+  font-size: 15px;
 }
 
 #story-button {
